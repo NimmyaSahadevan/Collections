@@ -14,7 +14,7 @@ public class LinkedListExample_2
 		}
 		ArrayList<String> list1=new ArrayList<String>();   //Creating array list
 		int m=sc.nextInt();
-		//adding elememts to array list
+		//adding elements to array list
 		for(int i=0;i<m;i++)
 		{
 			String s1=sc.next();
