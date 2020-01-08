@@ -23,8 +23,8 @@ public class ArrayListExample_UserDefined
 {
 	public static void main(String[] args) 
 	{
-		ArrayList<Contact>contact=new ArrayList<Contact>();  //class as arraylist object
-		//adding values using objects of class
+		ArrayList<Contact>contact=new ArrayList<Contact>();  //class as type of arraylist 
+		//passing values to constructor using objects of class
 		Contact firstcontact=new Contact("tim","123356");    
 		Contact secondcontact=new Contact("john","134677");
 		contact.add(firstcontact);
