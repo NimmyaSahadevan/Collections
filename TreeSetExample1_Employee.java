@@ -1,5 +1,5 @@
 
-public class Employee implements Comparable<Employee>
+public class TreeSetExample1_Employee implements Comparable<TreeSetExample1_Employee>
 {
 	private String name;
 	private int age;
@@ -22,7 +22,7 @@ public class Employee implements Comparable<Employee>
 		this.name=name;
 	}
 	@Override
-	public int compareTo(Employee o){
+	public int compareTo(TreeSetExample1_Employee o){
 		// TODO Auto-generated method stub
 		return 1;
 	}
